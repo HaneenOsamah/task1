@@ -1,0 +1,105 @@
+:root {
+  --primary-background-color: #0e070773;
+  --main-background-color: rgb(255, 255, 255);
+  --body-background-color: #D7DEE4;
+  --border-color: #abb6bf;
+  --button-border-color: #778897;
+  --primary-color: #70706E;
+  --text-color: #000000;
+  --secondary-color: #828c94;
+  --button-color: #778897;
+}
+
+body, html {
+  background-color: var(--primary-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: var(--main-background-color);
+  width: 600px;
+  height: 742px;
+  border-radius: 6px;
+}
+
+.bodyy {
+  width: 560px;
+  height: 540px;
+  background-color: var(--body-background-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 17px;
+  justify-content: space-between;
+}
+
+.bodyy > div {
+  background-color: var(--body-background-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.bodyy > div:last-child {
+  border-bottom: none;
+}
+
+.h2 {
+  font-size: 24px;
+  margin-left: 23px;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.h2 button.btn-outline-secondary {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 12px;
+  border-color: var(--button-border-color);
+  color: var(--button-border-color);
+}
+
+.footer {
+  text-align: center;
+  padding: 0px;
+}
+
+.full-width-button {
+  width: 100%;
+}
+
+.btn-outline-close {
+  font-weight: bold;
+  font-size: 12px;
+  border-color: #778897;
+  color: #778897;
+  width: 93%;
+}
+
+.bage {
+  background-color: #0d07c4;
+}
+
+.cross-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.btn-outline-secondary {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 12px;
+  border-color: #778897;
+  color: #778897;
+}
+
+.badge.bage {
+  border-radius: 0;
+}
