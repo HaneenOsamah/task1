@@ -1,0 +1,170 @@
+:root {
+    --basic-color: #828c94;
+    --primary-background-color: #0e070773;
+    --main-background-color: rgb(255, 255, 255);
+    --body-background-color: #fff7f7;
+    --border-color: #abb6bf;
+    --button-border-color: #778897;
+    --primary-color: #70706E;
+    --text-color: #000000;
+    --secondary-color: #828c94;
+    --span-color: #0601ae;
+    --button-color: #778897;
+  }
+  
+  body, html {
+    background-color: rgba(13, 13, 13, 0.578);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headerOfpage {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+  }
+  
+  .headerOfpage h1 {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-top: 24px;
+    margin-left: 20px;
+  }
+
+  
+  .btn {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .x {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 440px;
+  }
+ 
+  .BASE 
+  {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 742px;
+    border-radius: 6px;
+  }
+
+  .middle{
+    display: flex;
+    flex-direction: column;
+     gap:8px;
+    margin-top: 30px;
+  }
+  .middle1,.middle2,.middle3,.middle4,.middle5 {
+    display: flex;
+    flex-direction: row;
+   
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.input-group {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.input-groupp
+{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.input-grouppp {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-right: 20px;
+  margin-top: 25px;
+}
+.input-groupp input {
+    padding: 5px;
+    width: 550px;
+    border-radius: 5px;
+    border: 1px solid var( --basic-color);
+}
+.input-groupp label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var( --basic-color);
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var( --basic-color);
+}
+
+.input-group input {
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px; 
+    border: 1px solid var( --basic-color);
+}
+.input-grouppp select {
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid var(--basic-color);
+}
+
+.input-group button{
+    padding: 5px;
+    
+    border-radius: 5px; 
+    border: 1px solid var( --basic-color);
+
+}
+.save-button {
+    background-color: rgb(110, 189, 110);
+    color: white;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    gap:400px
+}
+
+
+.numberdropdown{
+    position: relative;
+}
+
+.numberdropdown select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+
+
+  
+
+  
