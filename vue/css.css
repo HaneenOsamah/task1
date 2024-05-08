@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #dac0c0;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; 
+}
+
+@media screen and (max-width: 600px) {
+  table {
+      border: 0;
+  }
+
+  table thead {
+      display: none;
+  }
+
+  table tr {
+      border-bottom: 2px solid #ddd; 
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  table td {
+      border-bottom: none;
+      display: block;
+      text-align: right; 
+  }
+
+  table td:last-child {
+      border-bottom: 1px solid #ddd; 
+  }
+}
